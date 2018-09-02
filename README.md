@@ -1,7 +1,5 @@
-AngularJS1 Hello World Demo
-===========================
-
-[AngularJS1](https://angularjs.org/) is not dead yet.
+AngularJS1 App Module Demo
+==========================
 
 ```
 npm install
