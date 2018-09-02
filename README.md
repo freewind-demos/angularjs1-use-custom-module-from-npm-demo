@@ -1,11 +1,9 @@
-AngularJS1 App Module Demo
-==========================
+AngularJS1 Use Custom AngularJS Module from Npm Demo
+====================================================
 
 ```
 npm install
 open index.html
 ```
-
-Type your name in the text field, and see the changes.
 
 ![demo](./images/demo.jpg)

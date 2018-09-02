@@ -1,15 +1,14 @@
 <html>
 <head>
     <script src="./node_modules/angular/angular.js"></script>
-    <script src="./app.js"></script>
+    <script src="./node_modules/freewind-angularjs-module-red-panel/red-panel-module.js"></script>
+    <script>
+        angular.module('app', ['RedPanel'])
+    </script>
 </head>
 <body>
 <div ng-app="app">
-    <div ng-controller="MyController">
-        <input type="text" ng-model="yourName" placeholder="type your name here"/>
-        <hr>
-        Hello, {{yourName}}!
-    </div>
+    <div red-panel>Hello, my custom module from npm</div>
 </div>
 </body>
 </html>
